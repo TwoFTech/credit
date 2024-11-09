@@ -34,7 +34,8 @@
         }
 
         .preloader-logo img {
-            width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+            max-width: 20px; /* Ajustez la taille de l'image selon vos besoins */
+            max-height: 20px; /* Ajustez la taille de l'image selon vos besoins */
         }
     </style>
 </head>
@@ -42,7 +43,7 @@
 <body class="js">
     <div id="preloader">
         <div class="preloader_image">
-            <img src="{{ asset('storage/front/asset/img/logo banque 2.png') }}" width="170">
+            <img src="{{ asset('storage/front/asset/img/logo banque 2.png') }}" width="100" height="100">
         </div>
     </div>
 
