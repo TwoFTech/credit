@@ -16,7 +16,7 @@ class ChangeTelephoneTypeInUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->integer('telephone')->change(); // Revenir à l'ancienne version si nécessaire
+            $table->string('telephone')->change(); // Revenir à l'ancienne version si nécessaire
         });
     }
 }
