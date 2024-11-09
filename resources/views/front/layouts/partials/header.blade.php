@@ -62,7 +62,7 @@
                         <div class="content">
                             <p style="color: black;">
                                 <span style="color: black;">@lang('header.contact_us'):</span> <span style="color: black;">
-                                    <a href="tel:+33 757755459">+33 757755450</a></span>
+                                    <a href="tel:+33 757755459">+33 757755459</a></span>
                             </p>
                         </div>
                     </div>
